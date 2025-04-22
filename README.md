@@ -1,4 +1,4 @@
-# 🌟 PlayerDeathTrails Plugin 🌟
+# PlayerDeathTrails Plugin 
 An aesthetic and fun plugin for Spigot 1.21 that creates particle trails leading from a player's death location to the spawn! Includes the ability to toggle the trails using a simple command. ✨
 
 ---
@@ -7,14 +7,13 @@ An aesthetic and fun plugin for Spigot 1.21 that creates particle trails leading
 🎨 Particle Death Trails
 Leave an epic particle trail from a player's death to the spawn point! Choose from multiple particle effects to customize the experience.
 
----
 
 # 🔄 Toggle Trails
 Use the /toggletrail command to enable or disable your personal death trail effect.
 
 ---
 
-# ⚙️ Customizable Configuration
+# ⚙️ Customisable Configuration
 Adjust settings such as trail types, visibility, and duration with ease.
 
 ---
@@ -43,18 +42,18 @@ After installation, you can modify the plugin settings in the config.yml file fo
 yaml
 Copy
 Edit
-# PlayerDeathTrails Configuration
+PlayerDeathTrails Configuration
 
-# Enable or Disable the plugin
+Enable or Disable the plugin
 enabled: true
 
-# Choose the particle effect for the trail
+Choose the particle effect for the trail
 particle-effect: "FLAME"  # Options: FLAME, SMOKE, HEART, etc.
 
-# Set the default trail status for players (true/false)
+Set the default trail status for players (true/false)
 default-trail-status: false
 
-# Customize the trail duration in ticks (20 ticks = 1 second)
+Customize the trail duration in ticks (20 ticks = 1 second)
 trail-duration: 100
 🛠️ How It Works
 When a player dies, a particle trail will appear from their death location leading to the spawn.
