@@ -1,18 +1,64 @@
-Anti-Cheat plugin for detecting KillAura in PvP.
+🎮 PlayerDeathTrails Plugin
+An aesthetic plugin for Spigot 1.21 that leaves a particle trail from a player's death location to the spawn and includes a /toggletrail command to toggle the trails on or off.
 
-Preferred Version: 1.21.0+ (older versions untested)
+📦 Features
+✨ Particle Trails on Player Death
+Leave a cool particle trail from the player's death location to the spawn.
 
-If someone is detected using KillAura, you will get a message saying "PlateouKillAura: <user> might be using KillAura" to staff members (all staff members must have the correct LuckPerms permission)
+⚙️ Toggle Trails Command
+Use /toggletrail to enable or disable death trails for yourself.
 
-The LuckPerms permission required to see the message is:
-'plateoukillaura.notify'
+🎨 Customizable
+Configure the trail types, particle effects, and more in the plugin's configuration.
 
-To assign this permission to a player/group do the following:
+📥 Installation
+Download the PlayerDeathTrails.jar file from the releases section.
 
-  For a player:
-    /lp user <username> permission set plateoukillaura.notify true
+Place the JAR file into your plugins folder of your Spigot server.
 
-  For a group:
-    /lp group <groupname> permission set plateoukillaura.notify true
+Restart or reload your server.
 
-The permission is set to default to 'op' (only server operators have it by default).
+🛠️ Commands
+/toggletrail
+Toggle the particle death trail on or off for your player.
+
+Permissions:
+playerdeathtrails.toggle: Allows the player to use the /toggletrail command.
+
+⚙️ Configuration
+Once installed, you can customize the plugin by modifying the config.yml file located in the plugins/PlayerDeathTrails folder.
+
+yaml
+Copy
+Edit
+# Configuration for PlayerDeathTrails Plugin
+
+# Enable/Disable the plugin
+enabled: true
+
+# Customize particle effects
+particle-effect: "FLAME"
+
+# Toggle trail visibility by default
+default-trail-status: "false"
+
+# Customize trail duration in ticks
+trail-duration: 100
+📌 How It Works
+When a player dies, a particle trail will appear leading from their death location to the spawn point.
+
+Use /toggletrail to enable or disable the trail effect for your player.
+
+The plugin supports all major particle effects like FLAME, SMOKE, HEART, etc.
+
+🌐 Links
+GitHub Repository: YourRepoURL
+
+Issues/Support: Create an issue
+
+📝 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+🙏 Acknowledgements
+Special thanks to all the contributors and open-source projects that helped make this plugin possible!
+
