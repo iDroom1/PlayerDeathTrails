@@ -3,7 +3,7 @@ An aesthetic and fun plugin for Spigot 1.21 that creates particle trails leading
 
 ---
 
-## 📜 Features
+### 📜 Features
 🎨 Particle Death Trails
 Leave an epic particle trail from a player's death to the spawn point! Choose from multiple particle effects to customize the experience.
 
