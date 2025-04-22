@@ -1,0 +1,8 @@
+name: PlayerDeathTrails
+version: 1.0.0
+main: org.idroom.playerdeathtrails.PlayerDeathTrails
+api-version: '1.21'
+commands:
+  toggletrail:
+    description: Toggle death trail visibility.
+    usage: /toggletrail
