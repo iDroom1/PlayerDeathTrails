@@ -30,12 +30,12 @@ Restart or reload your server for the plugin to load.
 ---
 
 
-## 🖥️ Commands
-/toggletrail
-Toggle the particle death trail on or off for your player.
-Permission Required:
-playerdeathtrails.toggle
-Allows you to use the toggle command.
+## 🖥️ Commands 
+|     Command    |                      Description                         |                 Permission                |
+|----------------|----------------------------------------------------------|-------------------------------------------|
+| `/toggletrail` | Toggle the particle death trail on or off for your player        | `playerdeathtrails.toggle`      |
+
+
 
 ---
 
